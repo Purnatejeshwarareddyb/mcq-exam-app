@@ -1,0 +1,1244 @@
+### **Unit 1: Introduction to NLP**
+
+1. **What is "Natural Language"?**
+A) A language created by computer scientists
+B) A language developed naturally over years with its own history 
+
+
+C) A language used only for coding
+D) A language with no grammar
+**Answer: B**
+2. **According to the documents, why is NLP important for society?**
+A) To speed up internet browsing
+B) To automate the translation of important books into other languages 
+
+
+C) To replace human teachers
+D) To increase hardware speed
+**Answer: B**
+3. **Natural Language Processing (NLP) is a branch of which field?**
+A) Mechanical Engineering
+B) Biological Science
+C) Artificial Intelligence 
+
+
+D) Pure Mathematics
+**Answer: C**
+4. **Which of the following is a primary goal of NLP?**
+A) To make computers understand, interpret, and manipulate human language 
+
+
+B) To increase the pixel density of screens
+C) To build faster CPUs
+D) To create new biological languages
+**Answer: A**
+5. **Approximately how many natural languages are used globally?**
+A) 100
+B) 1000
+C) More than 7000 
+
+
+D) Exactly 500
+**Answer: C**
+6. **Which language is cited as being used most globally?**
+A) Spanish
+B) Mandarin
+C) English 
+
+
+D) French
+**Answer: C**
+7. **What does the "Inverse" in TF-IDF help to achieve?**
+A) Increase the weight of common words
+B) Reduce the weight of common words across multiple documents
+C) Eliminate all rare words
+D) Make all word weights equal to 1
+**Answer: B**
+8. **If a term appears in very few documents, it is likely to be:**
+A) Meaningless
+B) Meaningful and specific
+C) A stop word
+D) A preposition
+**Answer: B**
+9. **What is the formula for Term Frequency (TF) in a document?**
+A) Total terms / Count of specific term
+B) Count of specific term / Total number of terms in that document
+C) Document count / Term count
+D) Term count * Document count
+**Answer: B**
+10. **In the example provided, if "cat" appears once in a 6-word document, what is its TF?**
+A) 1
+B) 6
+C) 1/6
+D) 0.5
+**Answer: C**
+
+---
+
+### **Unit 2: Vector Space Model & Feature Extraction**
+
+11. **What is the Vector Space Model used for?**
+A) Representing text as vectors in a multi-dimensional space
+B) Designing hardware circuits
+C) Calculating the speed of sound
+D) Storing images only
+**Answer: A**
+12. **In a vector space model, what does each dimension typically represent?**
+A) A sentence
+B) A unique term/word
+C) A document
+D) A paragraph
+**Answer: B**
+13. **Dimensionality reduction technique mentioned in the document is:**
+A) RNN
+B) PCA (Principal Component Analysis)
+C) Viterbi
+D) TF-IDF
+**Answer: B**
+14. **Which feature extraction method uses a frequency-based approach?**
+A) Word2Vec
+B) GloVe
+C) Bag of Words / TF-IDF
+D) BERT
+**Answer: C**
+15. **Word Embeddings represent words as:**
+A) One-hot encoded vectors
+B) Sparse matrices
+C) Dense vector representations
+D) Integers only
+**Answer: C**
+16. **Which of these is NOT a word embedding technique?**
+A) Word2Vec
+B) GloVe
+C) FastText
+D) Minimum Edit Distance
+**Answer: D**
+17. **Dense vectors help capture:**
+A) Only word count
+B) Semantic similarity and analogies
+C) Only spelling errors
+D) Document length
+**Answer: B**
+18. **The analogy "king - man + woman ≈ queen" is an example of:**
+A) Stemming
+B) Semantic vector relationships
+C) POS Tagging
+D) Stop word removal
+**Answer: B**
+19. **What is a "Corpus" in NLP?**
+A) A single word
+B) A collection of text documents used for training
+C) A type of neural network
+D) An error in the code
+**Answer: B**
+20. **TF-IDF is better than simple word count because:**
+A) It is faster
+B) It penalizes words that appear too frequently across all documents
+C) It ignores grammar
+D) It only works for English
+**Answer: B**
+
+---
+
+### **Unit 3: Probabilistic Models & Minimum Edit Distance**
+
+21. **Minimum Edit Distance is used to find:**
+A) The length of a string
+B) How similar two strings are 
+
+
+C) The number of words in a sentence
+D) The grammar of a sentence
+**Answer: B**
+22. **Which of the following is NOT a basic operation in Edit Distance?**
+A) Insertion
+B) Deletion
+C) Substitution
+D) Concatenation 
+
+
+**Answer: D**
+23. **In Levenshtein distance, what is the typical cost of a substitution?**
+A) 1
+B) 2 
+
+
+C) 0
+D) 5
+**Answer: B**
+24. **Which algorithmic approach is used to solve Minimum Edit Distance?**
+A) Greedy search
+B) Dynamic Programming
+C) Random Walk
+D) Sorting
+**Answer: B**
+25. **The Noisy Channel Model is used for:**
+A) Speeding up internet
+B) Recovering original messages after noise corruption (e.g., spell checking)
+C) Deleting files
+D) Writing code
+**Answer: B**
+26. **Markov Chains are based on the "Memoryless Property," which means:**
+A) The future depends on all past states
+B) The future depends only on the present state 
+
+
+C) The future is independent of the present
+D) The model has no states
+**Answer: B**
+27. **What does HMM stand for?**
+A) High Markov Model
+B) Hidden Markov Model 
+
+
+C) Human Machine Model
+D) Hidden Machine Matrix
+**Answer: B**
+28. **In an HMM, what are "Emissions"?**
+A) Transitions between hidden states
+B) The process of hidden states producing observed words
+C) The initial state distribution
+D) The final result only
+**Answer: B**
+29. **Which algorithm is used to find the most probable sequence of hidden states in an HMM?**
+A) Binary Search
+B) Viterbi Algorithm
+C) Bubble Sort
+D) Dijkstra's Algorithm
+**Answer: B**
+30. **What is a "Bigram"?**
+A) A sequence of one word
+B) A sequence of two words
+C) A sequence of three words
+D) A collection of all words
+**Answer: B**
+31. **In a N-gram model, an N-1 order Markov property means:**
+A) Predict next word using all previous words
+B) Predict next word using N-1 previous words 
+
+
+C) Predict the first word only
+D) Order does not matter
+**Answer: B**
+32. **Probability P(cat | the) in a bigram model is calculated as:**
+A) Count(cat) / Count(the)
+B) Count(the, cat) / Count(the)
+C) Count(the) / Count(the, cat)
+D) Count(cat) * Count(the)
+**Answer: B**
+33. **POS Tagging stands for:**
+A) Position of Speech
+B) Part of Speech Tagging 
+
+
+C) Point of Sentence
+D) Part of Sentiment
+**Answer: B**
+34. **In HMM-based POS tagging, what are the "Hidden" states?**
+A) The actual words
+B) The grammatical tags (Noun, Verb, etc.)
+C) The punctuation
+D) The sentence length
+**Answer: B**
+35. **The Viterbi table rows and columns usually represent:**
+A) Rows = tags, Columns = observed words
+B) Rows = words, Columns = tags
+C) Rows = letters, Columns = numbers
+D) Rows = sentences, Columns = documents
+**Answer: A**
+36. **Autocomplete systems use N-grams to:**
+A) Delete words
+B) Predict the next word
+C) Correct punctuation only
+D) Change the font
+**Answer: B**
+37. **In Minimum Edit Distance, D(i, j) represents:**
+A) The distance between word i and word j
+B) The distance between the first i characters of X and first j characters of Y
+C) The total length of X and Y
+D) The count of vowels in a string
+**Answer: B**
+38. **A "State Transition Matrix" in Markov chains contains:**
+A) The actual words
+B) The probabilities of moving from one state to another 
+
+
+C) Only 0s and 1s
+D) The definitions of the states
+**Answer: B**
+39. **HMMs are useful because they allow:**
+A) Sequence-level reasoning
+B) Removing all punctuation
+C) Faster internet speed
+D) Sorting lists alphabetically
+**Answer: A**
+40. **The "Memoryless Property" is also known as:**
+A) Viterbi property
+B) Markov property 
+
+
+C) Levenshtein property
+D) Bayesian property
+**Answer: B**
+
+---
+
+### **Unit 4: Sentiment Analysis**
+
+41. **What is the main task of Sentiment Analysis?**
+A) To count the number of words in a document
+B) To detect opinions/emotions and classify text as Positive, Negative, or Neutral
+C) To translate text
+D) To check spelling
+**Answer: B**
+42. **Which of the following is a common application of Sentiment Analysis?**
+A) Sorting files by size
+B) Analyzing product reviews and customer feedback
+C) Compiling code
+D) Creating 3D models
+**Answer: B**
+43. **Which step usually comes FIRST in a Sentiment Analysis workflow?**
+A) Model Training
+B) Data Collection
+C) Feature Extraction
+D) Sentiment Prediction
+**Answer: B**
+44. **What does "Stopword removal" involve?**
+A) Removing rare words
+B) Removing common words like "the", "is", "at"
+C) Removing all nouns
+D) Removing capital letters
+**Answer: B**
+45. **"Stemming" is the process of:**
+A) Adding prefixes to words
+B) Reducing words to their root form (e.g., "walking" to "walk")
+C) Increasing the vocabulary size
+D) Changing the language of the text
+**Answer: B**
+46. **Which library is commonly used for tokenization in Python according to the code example?**
+A) pandas
+B) nltk
+C) math
+D) os
+**Answer: B**
+47. **TF-IDF stands for:**
+A) Term Frequency - Inverse Document Frequency
+B) Text Format - Input Data Flow
+C) Term Fast - Internal Document Format
+D) Total Frequency - Integrated Data Filter
+**Answer: A**
+48. **In the Python code provided, Logistic Regression is used for:**
+A) Data collection
+B) Model Training/Classification
+C) Tokenization
+D) Stopword removal
+**Answer: B**
+49. **In the code example, the label "positive" is mapped to which value?**
+A) 0
+B) 1
+C) -1
+D) 100
+**Answer: B**
+50. **What is "Tokenization"?**
+A) Combining sentences into one
+B) Splitting text into individual words or tokens
+C) Encrypting text
+D) Deleting the dataset
+**Answer: B**
+
+---
+
+### **Unit 5: RNN, LSTM & Attention**
+
+51. **RNN stands for:**
+A) Random Neural Network
+B) Recurrent Neural Network 
+
+
+C) Regular Node Network
+D) Recursive Number Node
+**Answer: B**
+52. **What is a major limitation of traditional feed-forward Neural Networks in NLP?**
+A) They are too fast
+B) They have no memory and cannot handle sequential data well 
+
+
+C) They only work with numbers
+D) They use too much memory
+**Answer: B**
+53. **In an RNN, what acts as the "memory"?**
+A) The input layer
+B) The hidden state 
+
+
+C) The bias
+D) The loss function
+**Answer: B**
+54. **Which type of RNN mapping is used for Sentiment Analysis (many words to one sentiment)?**
+A) One-to-One
+B) One-to-Many
+C) Many-to-One 
+
+
+D) Many-to-Many
+**Answer: C**
+55. **Which type of RNN mapping is used for Machine Translation?**
+A) One-to-One
+B) One-to-Many
+C) Many-to-Many (Seq2Seq) 
+
+
+D) Many-to-One
+**Answer: C**
+56. **LSTM stands for:**
+A) Low Short-Term Memory
+B) Long Short-Term Memory 
+
+
+C) Long Sequential Text Model
+D) Linear Short-Term Memory
+**Answer: B**
+57. **LSTMs were designed to solve which RNN problem?**
+A) Speed
+B) Short-term memory / Vanishing gradients 
+
+
+C) Number of layers
+D) Data collection
+**Answer: B**
+58. **Named Entity Recognition (NER) identifies:**
+A) Verbs and Adverbs
+B) Entities like PERSON, LOCATION, and ORGANIZATION
+C) Sentence length
+D) Punctuation errors
+**Answer: B**
+59. **What is the "Context Vector" in a traditional Seq2Seq model?**
+A) The original input sentence
+B) A fixed-length representation of the input sequence 
+
+
+C) The final output word
+D) The attention weight
+**Answer: B**
+60. **What is the "bottleneck problem" in traditional Seq2Seq models?**
+A) The model is too slow
+B) A fixed-length vector cannot store all information from long sentences 
+
+
+C) The decoder is too large
+D) The encoder ignores the first word
+**Answer: B**
+61. **The Attention Mechanism allows the model to:**
+A) Focus on relevant parts of the input at each step
+B) Ignore the input entirely
+C) Speed up the CPU
+D) Use less data
+**Answer: A**
+62. **In Attention, the decoder looks at:**
+A) Only the last encoder state
+B) All encoder states
+C) No encoder states
+D) Only the first word
+**Answer: B**
+63. **Which model improved upon RNNs by having better memory?**
+A) Perceptron
+B) LSTM
+C) Decision Tree
+D) Linear Regression
+**Answer: B**
+64. **Neural Machine Translation (NMT) typically uses:**
+A) One-to-One architecture
+B) Seq2Seq architecture
+C) Noisy channel model
+D) Bigram models only
+**Answer: B**
+65. **A "Neuron" in a Neural Network is a combination of:**
+A) Subtraction and Division
+B) Weighted sum and activation 
+
+
+C) Text and Images
+D) Input and Output only
+**Answer: B**
+66. **"Loss function" measures:**
+A) Accuracy
+B) The error of the model's prediction 
+
+
+C) The speed of training
+D) The number of neurons
+**Answer: B**
+67. **In sequential data, word₁ → word₂ → word₃ implies:**
+A) Order is irrelevant
+B) Past information influences future prediction 
+
+
+C) Each word is independent
+D) The model is random
+**Answer: B**
+68. **Which model architecture is used when input and output lengths differ?**
+A) Feed-forward
+B) Seq2Seq 
+
+
+C) One-to-one RNN
+D) Markov Chain
+**Answer: B**
+69. **"She likes coffee" -> She/PRON, likes/VERB, coffee/NOUN is an example of:**
+A) NER
+B) POS Tagging
+C) Sentiment Analysis
+D) Translation
+**Answer: B**
+70. **RNNs maintain context because they:**
+A) Are very deep
+B) Use hidden states as a form of memory 
+
+
+C) Use TF-IDF
+D) Are trained on long documents
+**Answer: B**
+
+---
+
+### **Unit 6: Transformers, BERT, T5 & LLMs**
+
+71. **Transformers are based on which key mechanism?**
+A) Recursion
+B) Self-Attention 
+
+
+C) Convolutions
+D) Bigrams
+**Answer: B**
+72. **Unlike RNNs, Transformers process input:**
+A) Sequentially
+B) In parallel 
+
+
+C) One word per hour
+D) Randomly
+**Answer: B**
+73. **The "Self-Attention" mechanism helps a word understand:**
+A) Its own definition
+B) Its relationship with other words in the same sentence 
+
+
+C) Only the next word
+D) Only the previous word
+**Answer: B**
+74. **What does BERT stand for?**
+A) Bidirectional Encoder Representations from Transformers 
+
+
+B) Basic Encoder for Real Text
+C) Binary Encoder for Recurrent Tasks
+D) Bidirectional Entity Recognition Tool
+**Answer: A**
+75. **BERT is primarily focused on:**
+A) Generating text
+B) Understanding context (Encoding)
+C) Compressing files
+D) Translating speech to sign language
+**Answer: B**
+76. **T5 model stands for:**
+A) Text-to-Text Transfer Transformer
+B) Top 5 Transformation Tool
+C) Time-to-Task Transfer
+D) Total 5 Transformer
+**Answer: A**
+77. **Which model treats ALL NLP tasks as a text generation task?**
+A) BERT
+B) T5
+C) Word2Vec
+D) HMM
+**Answer: B**
+78. **What is a limitation of BERT in Question Answering?**
+A) It is too fast
+B) It cannot generate new text; the answer must exist in the passage
+C) it cannot read English
+D) it only works for bigrams
+**Answer: B**
+79. **Which model is designed specifically for handling very long sequences efficiently?**
+A) Vanilla RNN
+B) Reformer
+C) Bigram
+D) Logistic Regression
+**Answer: B**
+80. **Reformer uses which technique to reduce memory usage in attention?**
+A) Random guessing
+B) LSH (Locality Sensitive Hashing) Attention
+C) Deleting hidden states
+D) Using only one layer
+**Answer: B**
+81. **"Transfer Learning" allows models to:**
+A) Forget everything they learned
+B) Be pre-trained on a large dataset and fine-tuned for a specific task
+C) Only work on one language
+D) Run without electricity
+**Answer: B**
+82. **LLM stands for:**
+A) Low Level Model
+B) Large Language Model 
+
+
+C) Long Logical Matrix
+D) Linked Language Machine
+**Answer: B**
+83. **A Transformer Chatbot uses which of the following to generate responses?**
+A) Hardcoded rules only
+B) Self-attention and text generation
+C) A dictionary only
+D) Random word selection
+**Answer: B**
+84. **What is "Hallucination" in LLMs?**
+A) The model being very accurate
+B) The model generating false or nonsensical information
+C) The model running too fast
+D) The model using too little memory
+**Answer: B**
+85. **The input format for BERT QA is usually:**
+A) [CLS] Question [SEP] Context [SEP]
+B) Question + Answer
+C) Just the words
+D) Random tokens
+**Answer: A**
+86. **Multi-head attention allows the model to:**
+A) Attend to different parts of the sequence simultaneously 
+
+
+B) Run on multiple computers
+C) Use multiple languages at once
+D) Delete multiple words
+**Answer: A**
+87. **The Decoder in a Transformer generates output:**
+A) All at once
+B) Autoregressively (one token at a time) 
+
+
+C) From right to left
+D) In reverse alphabetical order
+**Answer: B**
+88. **What is the advantage of Transfer Learning workflow?**
+A) Requires more data
+B) Less data and better performance on specific tasks
+C) Makes models larger
+D) Slower training
+**Answer: B**
+89. **BERT's attention is:**
+A) Unidirectional (left-to-right)
+B) Bidirectional (looking at both sides)
+C) Random
+D) Non-existent
+**Answer: B**
+90. **T5 is suitable for:**
+A) Only classification
+B) Abstractive Question Answering and various text tasks
+C) Only spell checking
+D) Image recognition
+**Answer: B**
+
+---
+
+### **General Mixed Questions**
+
+91. **In a Seq2Seq model, the Encoder's job is to:**
+A) Generate the final sentence
+B) Compress the input into a context vector 
+
+
+C) Print the output
+D) Count the words
+**Answer: B**
+92. **The "Memoryless Property" means P(St+1 | St, St-1, ..., S1) equals:**
+A) P(St+1 | S1)
+B) P(St+1 | St) 
+
+
+C) P(St)
+D) 1
+**Answer: B**
+93. **"Dog bites man" ≠ "Man bites dog" illustrates why:**
+A) Vocabulary is important
+B) Word order/sequence matters 
+
+
+C) Grammar is irrelevant
+D) Animals should be mentioned in NLP
+**Answer: B**
+94. **An "Emission" in HMM relates:**
+A) Hidden state to another hidden state
+B) Hidden state to an observation (word)
+C) Observation to another observation
+D) Input to output directly
+**Answer: B**
+95. **"Levenshtein Distance" specifically refers to edit distance where:**
+A) Only deletions are allowed
+B) Substitutions typically cost 2 
+
+
+C) All costs are 0
+D) No substitutions are allowed
+**Answer: B**
+96. **In the Noisy Channel Model, we want to find the word 'w' that maximizes:**
+A) P(w) only
+B) P(w) * P(error | w)
+C) P(error) only
+D) Word length
+**Answer: B**
+97. **Which model is better for "Extractive QA"?**
+A) Reformer
+B) BERT
+C) Bigram
+D) PCA
+**Answer: B**
+98. **In Python Sentiment Analysis, `TfidfVectorizer(ngram_range=(1,1))` means:**
+A) Use bigrams only
+B) Use unigrams (single words) only
+C) Use trigrams only
+D) Use all combinations
+**Answer: B**
+99. **The <EOS> token in a decoder signifies:**
+A) End of Sentence / Stop generation 
+B) Every Other Sentence
+C) Error on Sentence
+D) End of Sequence-to-Sequence
+**Answer: A**
+100. **The main benefit of the Transformer over RNNs for long-range dependencies is:**
+A) It uses more layers
+B) Its self-attention mechanism provides a direct path between any two words 
+C) It uses more data
+D) It is older and more stable
+**Answer: B**
+### **Unit 1: Intro to NLP & TF-IDF**
+
+1. **What is the primary definition of NLP?** A) A method to speed up internet connections
+B) A branch of AI that helps computers understand and manipulate human language
+C) A tool for designing computer hardware
+D) A system for purely mathematical calculations
+**Answer: B**
+2. **Why is NLP cited as important for society in the documents?** A) To create new video games
+B) To automate the translation of important books to help millions improve knowledge
+C) To replace human librarians
+D) To increase the storage capacity of hard drives
+**Answer: B**
+3. **What does "TF" stand for in text vectorization?** A) Text Format
+B) Term Frequency
+C) Total Function
+D) Term Formula
+**Answer: B**
+4. **Identify the correct formula for Term Frequency (TF):** A) Count of term / Total terms in the document
+B) Total terms / Count of term
+C) Log(Total documents / Documents with term)
+D) Count of term * Total documents
+**Answer: A**
+5. **What does "IDF" stand for?** A) Input Data Flow
+B) Inverse Document Frequency
+C) Internal Document Filter
+D) Integrated Data Format
+**Answer: B**
+6. **What is the main purpose of IDF?** A) To count how many words are in a sentence
+B) To reduce the weight of common words and increase the weight of rare words
+C) To remove all punctuation
+D) To translate text to English
+**Answer: B**
+7. **NUMERICAL: In a document with 10 words, the word "apple" appears 2 times. What is the TF?** A) 0.5
+B) 5
+C) 0.2
+D) 1.0
+**Answer: C**
+8. **NUMERICAL: In a corpus of 100 documents, if "the" appears in all 100 documents, what happens to its IDF weight (log(100/100))?** A) It becomes 0
+B) It becomes 1
+C) It becomes 100
+D) It becomes negative
+**Answer: A**
+9. **SCENARIO: A search engine wants to find documents specifically about "Quantum Physics". Which component ensures "Quantum" gets more importance than "the"?** A) Term Frequency
+B) Inverse Document Frequency
+C) Tokenization
+D) Stemming
+**Answer: B**
+10. **TF-IDF is the result of:** A) TF + IDF
+B) TF / IDF
+C) TF * IDF
+D) Log(TF/IDF)
+**Answer: C**
+
+---
+
+### **Unit 2: Vector Space Model & Features**
+
+11. **VSM stands for:** A) Variable State Model
+B) Vector Space Model
+C) Virtual Storage Memory
+D) Voice Signal Modulation
+**Answer: B**
+12. **In a Vector Space Model, what does a "Dimension" represent?** A) A specific user
+B) A unique term/word in the vocabulary
+C) The time of day
+D) The file size
+**Answer: B**
+13. **PCA stands for:** A) Principal Component Analysis
+B) Primary Computer Architecture
+C) Private Cloud Access
+D) Process Control Algorithm
+**Answer: A**
+14. **What is the goal of PCA in NLP?** A) To add more words to the dictionary
+B) Dimensionality reduction (to simplify high-dimensional vectors)
+C) To check for spelling errors
+D) To translate text
+**Answer: B**
+15. **Word Embeddings are:** A) Large tables of integers
+B) Dense vector representations of words capturing semantic meaning
+C) One-hot encoded sparse matrices
+D) A list of stop words
+**Answer: B**
+16. **Which of these is a Word Embedding technique?** A) Viterbi
+B) Word2Vec
+C) Logistic Regression
+D) BFS
+**Answer: B**
+17. **Which embedding model was developed by Stanford?** A) Word2Vec
+B) GloVe
+C) FastText
+D) BERT
+**Answer: B**
+18. **SCENARIO: You want to find words similar to "Apple" (like "Pear" or "Fruit"). Which technique allows you to calculate "closeness" in space?** A) Edit Distance
+B) Word Embeddings
+C) Stopword removal
+D) Lemmatization
+**Answer: B**
+19. **The analogy "Man is to King as Woman is to ____" is solved using:** A) Bigrams
+B) Semantic vector relationships
+C) HMMs
+D) TF-IDF
+**Answer: B**
+20. **One-hot encoding has the disadvantage of:** A) Being too dense
+B) High dimensionality and lack of semantic relationship
+C) Being too small
+D) Being too fast
+**Answer: B**
+
+---
+
+### **Unit 3: Probabilistic Models (HMM, N-grams, Edit Distance)**
+
+21. **What does HMM stand for?** A) Human Machine Model
+B) Hidden Markov Model
+C) High Matrix Mapping
+D) Hidden Multi Model
+**Answer: B**
+22. **The "Memoryless Property" is the foundation of:** A) Neural Networks
+B) Markov Chains
+C) PCA
+D) TF-IDF
+**Answer: B**
+23. **In HMM, the states we cannot see directly are called:** A) Observations
+B) Hidden States
+C) Emissions
+D) Initial States
+**Answer: B**
+24. **In POS Tagging using HMM, what are the Hidden States?** A) The actual words
+B) The grammatical tags (Noun, Verb, etc.)
+C) The punctuation
+D) The document name
+**Answer: B**
+25. **Which algorithm is used to decode the most likely sequence of tags in HMM?** A) Binary Search
+B) Viterbi Algorithm
+C) Bubble Sort
+D) Dijkstra's
+**Answer: B**
+26. **NUMERICAL: In a Bigram model, if "the cat" appears 10 times and "the" appears 50 times, what is P(cat | the)?** A) 5.0
+B) 0.5
+C) 0.2
+D) 0.1
+**Answer: C**
+27. **A "Trigram" model predicts the next word based on:** A) 1 previous word
+B) 2 previous words
+C) 3 previous words
+D) The whole document
+**Answer: B**
+28. **Minimum Edit Distance calculates:** A) The number of words in a sentence
+B) The minimum number of operations to transform one string into another
+C) The speed of typing
+D) The probability of a word
+**Answer: B**
+29. **Which of these is NOT an operation in Edit Distance?** A) Insertion
+B) Deletion
+C) Multiplication
+D) Substitution
+**Answer: C**
+30. **What is the typical cost of substitution in Levenshtein Distance?** A) 0
+B) 1
+C) 2
+D) 5
+**Answer: C**
+31. **NUMERICAL: What is the edit distance between "intention" and "execution" if each op costs 1?** A) 3
+B) 5
+C) 8
+D) 10
+**Answer: B (Based on PPT example)**
+32. **The "Noisy Channel Model" formula is:** A) argmax P(w) * P(x|w)
+B) argmin P(w) / P(x|w)
+C) P(w) + P(x)
+D) P(w) - P(x)
+**Answer: A**
+33. **POS stands for:** A) Position of Sentence
+B) Part of Speech
+C) Point of Sale
+D) Part of Segment
+**Answer: B**
+34. **In HMM, an "Emission Probability" is:** A) P(State_i | State_{i-1})
+B) P(Word | State)
+C) P(State | Word)
+D) P(Word)
+**Answer: B**
+35. **The Viterbi algorithm uses which approach?** A) Greedy Search
+B) Dynamic Programming
+C) Randomized Algorithm
+D) Divide and Conquer
+**Answer: B**
+36. **A "State Transition" in Markov Chains refers to:** A) Changing the font of a word
+B) Moving from one state to another with a certain probability
+C) Deleting a word
+D) Translating a word
+**Answer: B**
+37. **Which model is used by Autocomplete systems?** A) PCA
+B) N-gram Language Models
+C) Sentiment Analysis
+D) TF-IDF only
+**Answer: B**
+38. **In the formula `P(y | x) = Count(x, y) / Count(x, *)`, what does `Count(x, *)` represent?** A) The number of times x appears followed by anything
+B) The total number of words in the corpus
+C) The number of times y appears
+D) The count of all unique words
+**Answer: A**
+39. **SCENARIO: A user types "graffe". The system suggests "giraffe". What did the system likely calculate?** A) Sentiment
+B) Minimum Edit Distance
+C) Part of Speech
+D) IDF
+**Answer: B**
+40. **"Memoryless property" means:** A) The computer has no RAM
+B) The future depends only on the present state, not the sequence of past events
+C) The model forgets the vocabulary
+D) Every word has the same probability
+**Answer: B**
+
+---
+
+### **Unit 4: Sentiment Analysis**
+
+41. **Sentiment Analysis is also known as:** A) Text Mining
+B) Opinion Mining
+C) Data Scraping
+D) Word Count
+**Answer: B**
+42. **What are the three common labels in sentiment classification?** A) Noun, Verb, Adjective
+B) Positive, Negative, Neutral
+C) Past, Present, Future
+D) High, Medium, Low
+**Answer: B**
+43. **What is "Tokenization"?** A) Assigning money to words
+B) Splitting text into individual units like words or phrases
+C) Combining sentences
+D) Removing capital letters
+**Answer: B**
+44. **Which process involves removing words like "the", "is", "and"?** A) Stemming
+B) Stopword removal
+C) Lemmatization
+D) Tokenization
+**Answer: B**
+45. **"Stemming" transforms "running" into:** A) Runner
+B) Run
+C) Ran
+D) Runs
+**Answer: B**
+46. **Which Python library is heavily used for the code examples in Unit 4?** A) NLTK
+B) Scikit-learn
+C) Pandas
+D) All of the above
+**Answer: D**
+47. **SCENARIO: You are analyzing Amazon product reviews. A review says "The battery life is terrible." What sentiment should the model predict?** A) Positive
+B) Negative
+C) Neutral
+D) Objective
+**Answer: B**
+48. **In the provided code, which model is trained to classify sentiment?** A) K-Means
+B) Logistic Regression
+C) Decision Tree
+D) Linear Regression
+**Answer: B**
+49. **NUMERICAL: In the Python mapping `df["sentiment"].map({"positive": 1, "negative": 0})`, what is the value for "negative"?** A) 1
+B) -1
+C) 0
+D) None
+**Answer: C**
+50. **What does `ngram_range=(1,1)` in `TfidfVectorizer` mean?** A) Use only single words (unigrams)
+B) Use pairs of words
+C) Use phrases of 3 words
+D) Use the whole sentence
+**Answer: A**
+
+---
+
+### **Unit 5: RNN, LSTM & Attention**
+
+51. **RNN stands for:** A) Random Neural Network
+B) Recurrent Neural Network
+C) Recursive Node Network
+D) Regular Neural Node
+**Answer: B**
+52. **The "Recurrent" in RNN refers to:** A) Performing the same task for every element of a sequence
+B) Deleting the network after use
+C) Using different weights for every word
+D) Working only on images
+**Answer: A**
+53. **What is a "Hidden State" in RNN?** A) A password
+B) A vector that represents the "memory" of previous inputs
+C) The output label
+D) The error rate
+**Answer: B**
+54. **LSTM stands for:** A) Long Short-Term Memory
+B) Low Standard Text Model
+C) Linear Short-Term Mapping
+D) Large Scale Text Machine
+**Answer: A**
+55. **LSTMs were designed to solve which problem?** A) Overfitting
+B) Vanishing Gradient (Short-term memory problem)
+C) Slow internet speed
+D) High hardware cost
+**Answer: B**
+56. **In a Seq2Seq model, what does the Encoder do?** A) Predicts the final answer
+B) Converts the input sequence into a context vector
+C) Translates the word immediately
+D) Displays the result
+**Answer: B**
+57. **The "Bottleneck Problem" in Seq2Seq is caused by:** A) Too many layers
+B) Using a fixed-length context vector for sentences of all lengths
+C) The decoder being too fast
+D) High learning rate
+**Answer: B**
+58. **NER stands for:** A) New Entity Record
+B) Named Entity Recognition
+C) Neural Entity Ranker
+D) Node Entry Result
+**Answer: B**
+59. **SCENARIO: Identify "Google" as an ORGANIZATION and "London" as a LOCATION. This task is:** A) Sentiment Analysis
+B) POS Tagging
+C) Named Entity Recognition
+D) Stemming
+**Answer: C**
+60. **NMT stands for:** A) Natural Machine Transformation
+B) Neural Machine Translation
+C) Node Management Tool
+D) Network Model Training
+**Answer: B**
+61. **What is the "Attention Mechanism"?** A) A way to make the model focus on specific relevant parts of the input sequence
+B) A tool to stop the model from training
+C) A way to reduce the number of neurons
+D) A method to clean the data
+**Answer: A**
+62. **The Attention Mechanism allows the Decoder to:** A) Ignore the Encoder
+B) Look at all hidden states of the Encoder, not just the last one
+C) Work without weights
+D) Speed up the CPU
+**Answer: B**
+63. **Many-to-One RNN architecture is used for:** A) Machine Translation
+B) Sentiment Analysis
+C) Music Generation
+D) Image Captioning
+**Answer: B**
+64. **Many-to-Many RNN architecture is used for:** A) Image Classification
+B) Machine Translation (Seq2Seq)
+C) Determining if a text is spam
+D) Counting letters
+**Answer: B**
+65. **A "Neuron" in Unit 5 is defined as:** A) A biological cell only
+B) A weighted sum + activation
+C) A line of code
+D) A storage unit
+**Answer: B**
+66. **"Loss function" measures:** A) The profit of a company
+B) The error between predicted and actual output
+C) The time taken for training
+D) The length of the sentence
+**Answer: B**
+67. **Traditional Feed-Forward Neural Networks fail in NLP because:** A) They are too complex
+B) They have no memory and cannot handle sequential dependencies
+C) They don't use math
+D) They only work in Python
+**Answer: B**
+68. **The context vector in a Seq2Seq model acts as:** A) The final output
+B) An information bridge between encoder and decoder
+C) The loss function
+D) The training data
+**Answer: B**
+69. **"She/PRON likes/VERB coffee/NOUN" is an example output of:** A) NER
+B) POS Tagging
+C) Attention
+D) TF-IDF
+**Answer: B**
+70. **Which gate in an LSTM is responsible for deciding what information to throw away?** A) Input gate
+B) Forget gate
+C) Output gate
+D) Memory gate
+**Answer: B**
+
+---
+
+### **Unit 6: Transformers, BERT & LLMs**
+
+71. **Transformers rely on which mechanism instead of recurrence?** A) Convolutions
+B) Self-Attention
+C) Bigrams
+D) Recursion
+**Answer: B**
+72. **What is the major advantage of Transformers over RNNs?** A) They are smaller
+B) They allow for parallel processing of tokens
+C) They don't use weights
+D) They only work on short sentences
+**Answer: B**
+73. **BERT stands for:** A) Binary Encoder for Recurrent Tasks
+B) Bidirectional Encoder Representations from Transformers
+C) Basic Entity Recognition Tool
+D) Bidirectional Error Reduction Technique
+**Answer: B**
+74. **BERT is "Bidirectional" because it:** A) Reads text from left-to-right and right-to-left simultaneously
+B) Can translate two languages
+C) Uses two GPUs
+D) Has two layers
+**Answer: A**
+75. **What is a limitation of BERT in QA?** A) It is too slow
+B) It is extractive (answer must exist in the text) and cannot generate new text
+C) It doesn't understand English
+D) It cannot handle punctuation
+**Answer: B**
+76. **T5 model stands for:** A) Text-to-Text Transfer Transformer
+B) Total 5-layered Transformer
+C) Task-to-Task Training Tool
+D) Time-to-Transfer Transformer
+**Answer: A**
+77. **Which model treats every NLP task as a "text-to-text" problem?** A) BERT
+B) Word2Vec
+C) T5
+D) HMM
+**Answer: C**
+78. **LLM stands for:** A) Low Level Model
+B) Large Language Model
+C) Long Logical Mapping
+D) Large Linear Matrix
+**Answer: B**
+79. **"Hallucination" in LLMs refers to:** A) The model getting a virus
+B) The model generating confident but false or nonsensical information
+C) The model turning off
+D) The model working too well
+**Answer: B**
+80. **The Reformer model is an optimized Transformer designed for:** A) Short texts
+B) Extremely long sequences
+C) Only 2 words
+D) Images only
+**Answer: B**
+81. **Reformer uses LSH to reduce memory. LSH stands for:** A) Linear System Hashing
+B) Locality Sensitive Hashing
+C) Long Sequence Hashing
+D) Logical State Handling
+**Answer: B**
+82. **In BERT's input format, what does the `[SEP]` token do?** A) Separates different segments/sentences
+B) Starts the classification
+C) Ends the document
+D) Corrects spelling
+**Answer: A**
+83. **In BERT's input format, what does the `[CLS]` token represent?** A) Close the program
+B) Classification token (used for the whole sequence representation)
+C) Clear the screen
+D) Calculate Sentence
+**Answer: B**
+84. **Transfer Learning workflow involves:** A) Training from scratch every time
+B) Pre-training on large data and fine-tuning on a specific task
+C) Deleting the model after training
+D) Using only small datasets
+**Answer: B**
+85. **"Abstractive QA" means:** A) Copying text from the paragraph
+B) Generating a new answer in natural language
+C) Only answering Yes or No
+D) Providing the word count
+**Answer: B**
+86. **Self-attention allows a word to:** A) Ignore all other words
+B) Relate to every other word in the same sentence to capture context
+C) Only look at its dictionary definition
+D) Change its spelling
+**Answer: B**
+87. **Which model architecture is most efficient for long-context chatbots?** A) Vanilla RNN
+B) Reformer
+C) Bigram
+D) Logistic Regression
+**Answer: B**
+88. **SCENARIO: You want to build a model that summarizes a 50-page document. Which model is best suited?** A) BERT (standard)
+B) Reformer
+C) HMM
+D) Word2Vec
+**Answer: B**
+89. **What is "Fine-tuning"?** A) Adjusting the volume of the computer
+B) Training a pre-trained model on a smaller, specific dataset
+C) Deleting hidden layers
+D) Writing the code from scratch
+**Answer: B**
+90. **The main problem with standard Attention in long sequences is:** A) It is too simple
+B) Quadratic complexity () in memory and time
+C) It doesn't use enough data
+D) It only works on CPUs
+**Answer: B**
+
+---
+
+### **General Mixed/Scenario Questions**
+
+91. **Formula Check: In the Noisy Channel Model for autocorrect,  is the:** A) Probability of the error
+B) Language Model probability (how common the word is)
+C) Edit distance
+D) Length of the word
+**Answer: B**
+92. **NUMERICAL: Calculate the bigram probability  from a corpus where "cat sleeps" occurs 5 times and "cat" occurs 20 times.** A) 4.0
+B) 0.25
+C) 0.5
+D) 1.0
+**Answer: B**
+93. **Which model suits "Sequence to Sequence mapping" best?** A) PCA
+B) Encoder-Decoder architecture
+C) TF-IDF
+D) One-hot encoding
+**Answer: B**
+94. **In the Viterbi table, what do the columns usually represent?** A) Possible tags
+B) Observed words in the sequence
+C) Document IDs
+D) Probabilities
+**Answer: B**
+95. **"Cosine Similarity" is a measure used to:** A) Count the letters in a word
+B) Calculate the similarity between two vectors in space
+C) Predict the next state in HMM
+D) Correct spelling
+**Answer: B**
+96. **SCENARIO: A model predicts "Bank" as a financial institution in one sentence and a river side in another. Which model is most likely used?** A) Word2Vec (Static)
+B) BERT (Contextual)
+C) One-hot encoding
+D) Bag of Words
+**Answer: B**
+97. **The term "Vanishing Gradient" means:** A) The model is learning too fast
+B) Error signals become too small during backpropagation, making it hard to learn long dependencies
+C) The weights become infinite
+D) The data disappears
+**Answer: B**
+98. **What does "G" in GPT stand for (Generative Pre-trained Transformer)?** A) General
+B) Generative
+C) Global
+D) Google
+**Answer: B**
+99. **"Bag of Words" ignores:** A) Word count
+B) Word order and grammar
+C) All nouns
+D) Punctuation
+**Answer: B**
+100. **The ultimate goal of most modern LLMs like T5 and GPT is to:** A) Replace CPUs
+B) Perform any language task based on natural language prompts
+C) Only check spelling
+D) Store as many documents as possible
+**Answer: B**
